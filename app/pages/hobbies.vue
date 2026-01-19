@@ -68,6 +68,12 @@
 </template>
 
 <script setup lang="ts">
-import { hobbyCategories } from "~/utils/hobbyData";
-useHead({ title: "Hobbies  | 汐猫みお Physical Mode Official" });
+const pageTitle = "Hobbies";
+const siteSuffix = " | 汐猫みお Physical Mode Official";
+
+useSeoMeta({
+  title: pageTitle,
+  ogTitle: `${pageTitle}${siteSuffix}`,
+  ogDescription: "Identity, Career, and Affiliations of SHINONE Mio.",
+});
 </script>

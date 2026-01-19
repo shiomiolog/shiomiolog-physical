@@ -258,7 +258,17 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: "Profile | 汐猫みお Physical Mode Official",
+const pageTitle = "Profile";
+const siteSuffix = " | 汐猫みお Physical Mode Official";
+
+useSeoMeta({
+  // ブラウザのタブ用（titleTemplateが適用されるので、これだけでOK）
+  title: pageTitle,
+
+  // SNS共有用（テンプレートが効かないので、フルタイトルを渡すのが確実だにゃ🐾💎）
+  ogTitle: `${pageTitle}${siteSuffix}`,
+
+  ogDescription: "Identity, Career, and Affiliations of SHINONE Mio.",
+  // ...その他の設定
 });
 </script>

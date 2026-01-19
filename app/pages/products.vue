@@ -57,7 +57,12 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: "Products | 汐猫みお Physical Mode Official",
+const pageTitle = "Products";
+const siteSuffix = " | 汐猫みお Physical Mode Official";
+
+useSeoMeta({
+  title: pageTitle,
+  ogTitle: `${pageTitle}${siteSuffix}`,
+  ogDescription: "Identity, Career, and Affiliations of SHINONE Mio.",
 });
 </script>

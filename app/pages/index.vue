@@ -51,14 +51,24 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: "汐猫みお | Physical Mode Official",
-  meta: [
-    {
-      name: "description",
-      content:
-        "汐猫みお (SHIONE Mio) の物理層ポータルサイト。デジタルな存在の背後にある、一人の個人としての記録。",
-    },
-  ],
+const pageTitle = "";
+const siteSuffix = " 汐猫みお Physical Mode Official";
+
+useSeoMeta({
+  title: pageTitle,
+  ogTitle: `${pageTitle}${siteSuffix}`,
+
+  description:
+    "汐猫みお (SHIONE Mio) の物理層ポータルサイト。デジタルな存在の背後にある、一人の個人としての記録。",
+  ogDescription:
+    "汐猫みお (SHIONE Mio) の物理層ポータルサイト。デジタルな存在の背後にある、一人の個人としての記録。",
+
+  ogUrl: "https://physical.shiomiolog.com/",
+  ogType: "website",
+
+  ogImage: "https://physical.shiomiolog.com/ogp.png",
+  twitterCard: "summary_large_image",
+  twitterSite: "@shiomiolog",
+  twitterCreator: "@shiomiolog",
 });
 </script>
