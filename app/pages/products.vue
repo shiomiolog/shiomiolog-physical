@@ -58,6 +58,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Products | shiomiolog.com",
+  title: "Products | 汐猫みお Physical Mode Official",
 });
 </script>

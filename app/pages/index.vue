@@ -52,7 +52,7 @@
 
 <script setup lang="ts">
 useHead({
-  title: "汐猫みお Official Site | Physical",
+  title: "汐猫みお | Physical Mode Official",
   meta: [
     {
       name: "description",
