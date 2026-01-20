@@ -25,7 +25,6 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: '汐音みお | Physical Portal',
       htmlAttrs: { lang: 'ja' },
       bodyAttrs: {
         class: 'bg-[#000b1e] text-[#e2e8f0] selection:bg-[#00d1ff] selection:text-[#000b1e]'

@@ -55,7 +55,7 @@ const pageTitle = "";
 const siteSuffix = " 汐猫みお Physical Mode Official";
 
 useSeoMeta({
-  title: pageTitle,
+  title: siteSuffix,
   ogTitle: `${pageTitle}${siteSuffix}`,
 
   description:
